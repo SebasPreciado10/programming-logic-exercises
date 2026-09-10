@@ -1,5 +1,5 @@
-// Combina dos arrays, elimina duplicados y ordena de menor a mayor
-// [1,2,4,6,8] + [1,3,5,7,8] → [1,2,3,4,5,6,7,8]
+// Combina dos arrays, elimina duplicados y ordena menor→mayor. [1,2,4,6,8]+[1,3,5,7,8]→[1..8]
+// concat() une, new Set() elimina duplicados, [...] a array, sort((a,b)=>a-b) ordena números.
 
 let arr1 = [1, 2, 4, 6, 8]
 let arr2 = [1, 3, 5, 7, 8]

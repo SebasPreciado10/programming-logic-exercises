@@ -1,4 +1,5 @@
-// Cuenta cuántos true hay en el array (las ovejas)
+// Cuenta cuántos true hay (ovejas presentes).
+// filter(Boolean) crea nuevo array solo con truthy, elimina null/undefined/false/0/"". .length los cuenta.
 
 let sheep = [undefined,null,false,true,true,false,null,undefined]
 

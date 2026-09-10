@@ -1,4 +1,5 @@
-// Dado un array y número n, devuelve los primeros n elementos
+// Dado array y n, devuelve los primeros n elementos.
+// slice(0,n) corta desde 0 hasta n sin incluir n. No modifica el original.
 
 let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 

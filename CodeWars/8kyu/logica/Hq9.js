@@ -1,4 +1,7 @@
-// Intérprete HQ9+: H=Hello, Q=quine, 9=canción
+// Intérprete HQ9+: H=devuelve 'Hello World!', Q=devuelve 'Q' (quine), 9=genera canción 99 botellas, otro=undefined
+// for(number=99; number>0; number--) genera cada estrofa descendente.
+// Ternarios manejan singular/plural: 1 bottle vs X bottles vs no more bottles.
+// song += concatena cada estrofa con \n (salto de línea).
 
 function HQ9(code) {
   if (code === 'H') return 'Hello World!';

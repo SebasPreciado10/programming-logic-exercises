@@ -1,5 +1,5 @@
-// Según el tipo de dato, devuelve quién comió la galleta:
-// string → Zach | number → Monica | otro → el perro
+// Según tipo de dato: string → Zach, number → Monica, otro → dog.
+// typeof x devuelve el tipo como string ("string","number","boolean"...). Versión arrow usa ternarios anidados.
 
 function cookie(x) {
   // typeof te dice el tipo: "string", "number", "boolean", etc.

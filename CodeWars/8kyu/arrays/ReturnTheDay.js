@@ -1,5 +1,5 @@
-// Dado un número 1-7, devuelve el día de la semana
-// 1=Sunday, 2=Monday, ..., 7=Saturday
+// Dado 1-7 devuelve día: 1=Sunday ... 7=Saturday. Otro número → mensaje de error.
+// weeksDay[num-1] porque arrays empiezan en 0. || devuelve error si índice es undefined (falsy).
 
 let weeksDay = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ]
 

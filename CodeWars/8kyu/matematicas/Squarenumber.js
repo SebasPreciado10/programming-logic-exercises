@@ -1,5 +1,5 @@
-// Encuentra el cuadrado perfecto más cercano
-// Ejemplo: 11 → 9 (porque √11≈3.3, redondea a 3, y 3²=9)
+// Encuentra el cuadrado perfecto más cercano. Ej: 11 → 9 (√11≈3.3 → round 3 → 3²=9)
+// Math.sqrt() = raíz, Math.round() = redondea al entero más cercano, luego multiplica root*root.
 
 function nearestSq(n){
     // sqrt() = raíz cuadrada, round() = redondea

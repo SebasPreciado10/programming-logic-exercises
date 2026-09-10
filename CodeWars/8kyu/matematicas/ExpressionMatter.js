@@ -1,5 +1,5 @@
-// Dados 3 números, encuentra la expresión con MAYOR resultado
-// Ejemplo: 1,2,3 → 9 (porque (1+2)*3 = 9)
+// Dados 3 números, prueba 5 combinaciones y devuelve la MAYOR. Ej: 1,2,3 → 9 por (1+2)*3.
+// Math.max() devuelve el más grande. Cada expresión usa precedencia (* antes que +) y paréntesis.
 
 function expressionMatter(a, b, c) {
   // Math.max() devuelve el número más grande

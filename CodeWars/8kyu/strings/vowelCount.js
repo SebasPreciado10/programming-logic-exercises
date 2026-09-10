@@ -1,4 +1,6 @@
-// Cuenta cuántas vocales (a,e,i,o,u) hay en un string
+// Cuenta vocales a,e,i,o,u (insensible a mayúsculas).
+// for...of recorre cada carácter. toLowerCase() iguala "A"="a". vowels.includes() verifica si es vocal. count++ suma.
+// Versión arrow: [...str] a array, .filter() solo vocales, .length las cuenta.
 
 function getCount(str){
     let vowels = "aeiou";

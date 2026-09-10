@@ -1,5 +1,5 @@
-// Si es cuadrado (largo=ancho) → devuelve área (l*w)
-// Si es rectángulo → devuelve perímetro (2*(l+w))
+// Si es cuadrado (l==w) → devuelve área (l*w). Si es rectángulo → perímetro (2*(l+w)).
+// === compara valor y tipo estricto. Hay versión function con if/return y arrow con ternario.
 
 const areaOrPerimeter = function(l , w) {
   let area = l * w

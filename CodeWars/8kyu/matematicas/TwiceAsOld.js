@@ -1,5 +1,6 @@
-// Dados dos años, dice cuántos años le faltan o sobran al padre
-// para tener el doble de la edad del hijo
+// Dados padre e hijo, dice cuántos años faltan/sobran para que el padre sea el doble que el hijo.
+// son*2 = doble del hijo. dad - eso = diferencia. Math.abs() quita el negativo, siempre positivo.
+// Hay versión function y versión arrow, hacen lo mismo.
 
 function twiceAsOld(dadYearsOld, sonYearsOld){
     // Math.abs() quita el negativo, siempre da positivo

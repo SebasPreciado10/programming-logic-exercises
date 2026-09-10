@@ -1,7 +1,6 @@
-// Dado año de nacimiento y año actual, dice la edad
-// Pasado → "You are X years old"
-// Futuro → "You will be born in X years"
-// Este año → "You were born this very year!"
+// Dado año nacimiento y actual: pasado → "You are X years old", futuro → "You will be born...", igual → "born this very year!"
+// Resta para sacar diferencia. Ternario (===1 ? 'year' : 'years') maneja singular/plural.
+// Versión arrow usa Math.abs para la diferencia y reutiliza la variable year.
 
 function calculateAge(yearBirth, currentYear) {  
   if(yearBirth < currentYear){

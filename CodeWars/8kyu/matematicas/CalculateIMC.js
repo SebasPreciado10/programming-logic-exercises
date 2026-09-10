@@ -1,5 +1,5 @@
-// Calcula el IMC y devuelve la categoría
-// peso / (altura²) → Underweight | Normal | Overweight | Obese
+// Calcula IMC = peso / (altura²) y clasifica: <=18.5 Underweight, <=25 Normal, <=30 Overweight, si no Obese.
+// ** es potencia. Return temprano: cada if termina la función, no necesita else. Revisa en orden.
 
 function bmi(weight, height){
     // ** es potencia: height ** 2 = height al cuadrado

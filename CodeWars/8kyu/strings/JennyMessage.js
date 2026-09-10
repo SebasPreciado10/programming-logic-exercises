@@ -1,5 +1,6 @@
-// Si el nombre es "Johnny" → "Hello, my love!"
-// Para cualquier otro nombre → "Hello, [nombre]!"
+// Si el nombre es "Johnny" → "Hello, my love!". Otro nombre → "Hello, [nombre]!".
+// Ternario: condición ? siTrue : siFalse. === compara estricto.
+// `Hello, ${name}!` es template literal, igual que "Hello, " + name + "!" pero más limpio.
 
 function greet(name){
     // Ternario: condición ? siEsVerdadero : siEsFalso

@@ -1,4 +1,6 @@
-// Cuenta letras minúsculas en un string
+// Cuenta letras minúsculas a-z.
+// match(/[a-z]/g) regex: [a-z]=minúscula, g=todas. Devuelve array o null.
+// letter ? length : 0 evita error si es null. Versión arrow usa ?. (optional chaining) y ?? 0.
 
 function lowercaseCount(str){
     // match(/[a-z]/g) busca todas las minúsculas, devuelve array o null

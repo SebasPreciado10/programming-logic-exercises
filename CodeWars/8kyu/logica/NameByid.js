@@ -1,4 +1,6 @@
-// Dado un número 1-8, devuelve el nombre del planeta
+// Dado un número 1-8, devuelve el nombre del planeta (1=Mercury ... 8=Neptune)
+// switch(id) entra al case que coincida. Sin break hace "fall-through" y sigue a los de abajo.
+// Por eso la versión con bug siempre termina en Neptune. Con break en cada case se corta y devuelve el correcto.
 
 // ❌ BUG: sin break, el switch "se cae" al siguiente case
 function getPlanetName(id){

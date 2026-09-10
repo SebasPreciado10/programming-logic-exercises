@@ -1,7 +1,6 @@
-// Para cada número del array:
-// Si es cuadrado perfecto → devuelve su raíz
-// Si no → lo eleva al cuadrado
-// [4,5,9] → [2, 25, 3]
+// Para cada número: si es cuadrado perfecto → raíz, si no → cuadrado. [4,5,9] → [2,25,3]
+// .map() transforma cada elemento y devuelve nuevo array.
+// Math.sqrt() = raíz. Number.isInteger() verifica si es entero → es cuadrado perfecto.
 
 const numeros = [4, 5, 9, 10, 16];
 
